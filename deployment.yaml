@@ -17,7 +17,7 @@ spec:
       - name: jfrogcred ### name provided in secret.yaml
       containers:
       - name:  valaxy-rtp ###
-        image: mahenderb14feb.jfrog.io/mahi-docker/ttrend:2.1.5 #in jfrog-->artifactory-->artifacts-->mahi-docker-->trend-->2.1.4
+        image: mahenderb14feb.jfrog.io/mahi-docker/ttrend:2.1.6 #in jfrog-->artifactory-->artifacts-->mahi-docker-->trend-->2.1.4
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
