@@ -108,7 +108,7 @@ environment {
                 script {
                     // sh './deploy.sh'
                     echo '<--------------- Helm Deploy Started --------------->'
-                    sh 'helm install ttrend ttrend-0.1.0.tgz'
+                    sh 'helm install ttrend ttrend-0.1.0.tgz --generate-name'
                     echo '<--------------- Helm deploy Ends --------------->'
                 }
             }
